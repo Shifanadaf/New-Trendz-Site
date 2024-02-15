@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background:url();
+	background-size: 200%;
+	background-position: -200px 0px;
+}
+div.main
+{
+	width:400px;
+	margin:m 50px auto 0px auto;
+}
+h2
+{
+	text-align: center;
+	padding: 10px;
+	font-family: sans-serif;
+}
+div.register
+{
+	/*background-color: rgba(0,0,0,0.5);*/
+	width:450px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 50px
+	/*rgba(0,0,0,0.3);*/
+	color: black;
+}
+form#register
+{
+	margin: 40px;	
+}
+label
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style:;
+}
+input#name
+{
+	width:300px;
+	color: black;
+	border:1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px
+	/*rgba(0,0,0,0.3);*/
+}
+input#submit
+{
+	width: 82px;
+	padding: 7px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 300;
+	border: none;
+	border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color:#fff;
+    cursor: pointer;
+    border: 1px solid 
+    rgba(255,255,0.3);
+    box-shadow: 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+input#Login
+{
+	width: 82px;
+	height: 37px;
+	padding: 7px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 300;
+	border: none;
+	border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color:#fff;
+    cursor: pointer;
+    border: 1px solid 
+    rgba(255,255,0.3);
+    box-shadow: 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+label,span,h2
+{
+	text-shadow: 1px 1px 5px
+	/*rgba(0,0,0,0.3);*/
+}
+.in
+{
+	color: black;
+}
+
+input#ph_no
+{
+	width:300px;
+	color: black;
+	border:1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px
+	/*rgba(0,0,0,0.3);*/
+}

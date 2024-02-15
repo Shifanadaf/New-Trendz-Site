@@ -1,0 +1,100 @@
+/*----------flash--------*/
+.heading {
+  margin-bottom: 30px;
+}
+
+.heading h2 {
+  font-size: 25px;
+}
+
+.heading h2 i {
+  font-size: 20px;
+  color: #E94560;
+  margin-right: 10px;
+}
+
+.heading a {
+  font-size: 14px;
+}
+
+.heading a i {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.flash .item {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.flash .img span {
+  background: #E94560;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  color: white;
+}
+
+.flash .view {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  opacity: 0;
+}
+
+.flash .item:hover .view {
+  opacity: 1;
+}
+
+.flash .star i {
+  color: #f7d833;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flash p {
+  color: #E94560;
+}
+
+.flash p label {
+  text-decoration: line-through;
+  color: grey;
+  margin-left: 10px;
+}
+
+.owl-nav i {
+  font-size: 20px;
+  transition: 0.5s;
+  width: 50px;
+  height: 50px;
+  background: #e2eff7;
+  border-radius: 50%;
+  color: white;
+  line-height: 50px;
+}
+
+.owl-nav i:hover {
+  background: #dfdfdf;
+  color: grey;
+}
+
+.owl-next i,
+.owl-prev i {
+  position: absolute;
+  top: 40%;
+}
+
+.owl-prev i {
+  left: -20px;
+}
+
+.owl-next i {
+  right: -20px;
+  background: #000;
+}
+
+/*----------flash--------*/
